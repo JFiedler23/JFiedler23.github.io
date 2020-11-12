@@ -72,9 +72,30 @@ body{
   color: var(--grayblue);
 }
 
+.about-icons{
+  display: flex;
+}
+
+.about-icon-item{
+  margin: 0px 4vw 0px 4vw;
+}
+
+#passionate-icon{
+  padding-left: 15px;
+}
+
+#creative-text{
+  padding-left: 10px;
+}
+
+#diligent-text{
+  padding-left: 5px;
+}
+
 .about-content{
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
 #about-main{
@@ -123,16 +144,34 @@ body{
   .section-title{
     font-size: calc(30px + 25 * ((100vw - 320px) / 680));
   }
+  .about-icons{
+    flex-direction: column;
+  }
+  .about-icon-item{
+    margin: 0px 5vw 0px 5vw;
+    width: 25vw;
+  }
   .about-content{
     flex-direction: column;
   }
   #about-main{
     width: 50vw;
-    font-size: calc(12px + 4 * ((100vw - 320px) / 680));
+    font-size: calc(14px + 4 * ((100vw - 320px) / 680));
   }
   #about-side{
-    width: 50vw;
+    width: 45vw;
     font-size: calc(18px + 7 * ((100vw - 320px) / 680));
+  }
+}
+@media screen and (min-width: 600px) {
+  .about-icons{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .about-icon-item{
+    margin: 0px 5vw 0px 5vw;
+    width: 25vw;
   }
 }
 /* maximum screen size */
@@ -151,16 +190,22 @@ body{
   .section-title{
     font-size: 55px;
   }
+  .about-icons{
+    flex-direction: row;
+  }
+  .about-icon-item{
+    margin: 0px 4vw 0px 4vw;
+    width: 7vw;
+  }
   .about-content{
     flex-direction: row;
   }
   #about-main{
-    width: 25vw;
-    font-size: 16px;
+    width: 20vw;
+    font-size: 18px;
   }
   #about-side{
-    width: 25vw;
-    text-align: right;
-    font-size: 25px;
+    width: 20vw;
+    font-size: 35px;
   }
 }
