@@ -14,7 +14,7 @@ body{
   flex-direction: column;
 }
 
-.navbar{
+.navbar, .footer{
   display: flex;
   background-color: var(--grayblue);
 }
@@ -57,14 +57,27 @@ body{
   color: var(--greenblue);
 }
 
-.main-header{
+#main-header{
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   background-color: var(--greenblue);
   color: white;
+  text-align: center;
 }
 
-.about{
+#header-image{
+  width: 15vw;
+  margin: 5vw 0vw -1vw 0vw;
+}
+
+#divider{
+  background-color: white;
+  width: 2vw;
+  height: 2vw;
+}
+
+#about{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -74,10 +87,11 @@ body{
 
 .about-icons{
   display: flex;
+  margin-top: 2vw;
 }
 
 .about-icon-item{
-  margin: 0px 4vw 0px 4vw;
+  margin: 2vw 4vw 0px 4vw;
 }
 
 #passionate-icon{
@@ -96,6 +110,7 @@ body{
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin-top: 2vw;
 }
 
 #about-main{
@@ -110,14 +125,14 @@ body{
   text-align: right;
 }
 
-.projects{
+#projects{
   display: flex;
   justify-content: center;
   background-color: var(--greenblue);
   color: white;
 }
 
-.contact{
+#contact{
   display: flex;
   justify-content: center;
   background-color: white;
@@ -144,12 +159,19 @@ body{
   .section-title{
     font-size: calc(30px + 25 * ((100vw - 320px) / 680));
   }
+  #header-image{
+    width: 25vw;
+    margin: 5vw 0vw -1vw 0vw;
+  }
+  #header-text{
+    font-size: calc(14px + 4 * ((100vw - 320px) / 680));
+  }
   .about-icons{
     flex-direction: column;
     margin: auto;
   }
   .about-icon-item{
-    margin: 0px 5vw 0px 5vw;
+    margin: 2vw 5vw 0px 5vw;
     width: 25vw;
   }
   .about-content{
@@ -157,14 +179,20 @@ body{
   }
   #about-main{
     width: 50vw;
-    font-size: calc(14px + 4 * ((100vw - 320px) / 680));
+    font-size: calc(16px + 2 * ((100vw - 320px) / 680));
   }
   #about-side{
     width: 45vw;
     font-size: calc(18px + 7 * ((100vw - 320px) / 680));
   }
+  .footer{
+    color: white;
+  }
 }
 @media screen and (min-width: 600px) {
+  #header-image{
+    width: 20vw;
+  }
   .about-icons{
     flex-direction: row;
     flex-wrap: wrap;
@@ -172,7 +200,7 @@ body{
     margin-left: 10vw;
   }
   .about-icon-item{
-    margin: 0px 5vw 0px 5vw;
+    margin: 2vw 5vw 0px 5vw;
     width: 25vw;
   }
 }
@@ -192,12 +220,19 @@ body{
   .section-title{
     font-size: 55px;
   }
+  #header-image{
+    width: 15vw;
+    margin: 4vw 0vw -1vw 0vw;
+  }
+  #header-text{
+    font-size: 18px;
+  }
   .about-icons{
     flex-direction: row;
     margin: auto;
   }
   .about-icon-item{
-    margin: 0px 4vw 0px 4vw;
+    margin: 2vw 4vw 0px 4vw;
     width: 7vw;
   }
   .about-content{
