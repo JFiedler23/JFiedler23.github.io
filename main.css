@@ -146,6 +146,7 @@ body{
   }
   .about-icons{
     flex-direction: column;
+    margin: auto;
   }
   .about-icon-item{
     margin: 0px 5vw 0px 5vw;
@@ -168,6 +169,7 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    margin-left: 10vw;
   }
   .about-icon-item{
     margin: 0px 5vw 0px 5vw;
@@ -192,6 +194,7 @@ body{
   }
   .about-icons{
     flex-direction: row;
+    margin: auto;
   }
   .about-icon-item{
     margin: 0px 4vw 0px 4vw;
