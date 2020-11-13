@@ -128,7 +128,6 @@ hr{
   display: flex;
   padding-right: 2vw;
   justify-content: flex-end;
-  text-align: right;
 }
 
 #projects{
@@ -230,6 +229,7 @@ hr{
   #about-side{
     width: 45vw;
     font-size: calc(18px + 7 * ((100vw - 320px) / 680));
+    text-align: left;
   }
   #projects{
     flex-direction: column;
@@ -320,6 +320,7 @@ hr{
   #about-side{
     width: 20vw;
     font-size: 35px;
+    text-align: right;
   }
   .project-title{
     font-size: 26px;
