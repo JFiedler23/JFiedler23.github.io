@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="css/main.css">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
@@ -28,8 +28,8 @@
       <!--- header section --->
       <header id="main-header">
         <img id="header-image" src="images\programing.svg" alt="programmer icon">
-        <h1 class="section-title">John Fiedler</h1>
-        <div class="divider"></div>
+        <h1 id="header-name" class="section-title">John Fiedler</h1>
+        <hr>
         <p id="header-text">Senior Computer Science Student</p>
       </header>
       <!--- about section --->
@@ -62,7 +62,12 @@
       <!--- projects section --->
       <div id="projects">
         <h1 class="section-title">PROJECTS</h1>
-        <div class="project-item">
+        <div class="project-container">
+          <div id="pc-component-proj" class="project-item">
+            <p class="project-title">PC Component API</p>
+            <p class="project-description">A Node.js package designed to pull pc component listings from
+              several e-commerce websites.</p>
+          </div>
         </div>
       </div>
       <!--- contact section --->
