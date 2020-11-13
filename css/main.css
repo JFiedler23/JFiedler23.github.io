@@ -138,6 +138,11 @@ hr{
   color: white;
 }
 
+.project-container{
+  display: flex;
+  flex-direction: row;
+}
+
 .project-item{
   display: flex;
   flex-direction: column;
@@ -167,6 +172,11 @@ hr{
 
 #pc-component-proj{
   background-image: url("../images/code-image.png");
+  background-repeat: no-repeat;
+}
+
+#vr-proj{
+  background-image: url("../images/laser-arena-screenshot.png");
   background-repeat: no-repeat;
 }
 
@@ -231,7 +241,7 @@ hr{
     font-size: calc(18px + 7 * ((100vw - 320px) / 680));
     text-align: left;
   }
-  #projects{
+  .project-container{
     flex-direction: column;
   }
   .project-title{
@@ -270,6 +280,9 @@ hr{
   }
 }
 @media only screen and (min-width: 700px) {
+  .project-container{
+    flex-direction: column;
+  }
   .project-item{
     width: 50vw;
     height: 60vh;
@@ -321,6 +334,9 @@ hr{
     width: 20vw;
     font-size: 35px;
     text-align: right;
+  }
+  .project-container{
+    flex-direction: row;
   }
   .project-title{
     font-size: 26px;
