@@ -8,6 +8,14 @@ body{
   margin: 0;
   font-family: 'Montserrat', sans-serif;
 }
+a{
+  text-decoration: none;
+  color: white;
+}
+
+a:hover{
+  color: var(--greenblue);
+}
 
 .container{
   display: flex;
@@ -51,10 +59,6 @@ body{
   color: white;
   text-decoration: none;
   padding: 0px 15px 0px 15px;
-}
-
-.nav-item:hover{
-  color: var(--greenblue);
 }
 
 #main-header, #about, #projects, #contact{
@@ -140,7 +144,6 @@ hr{
 
 .project-container{
   display: flex;
-  flex-direction: row;
 }
 
 .project-item{
@@ -177,6 +180,11 @@ hr{
 
 #vr-proj{
   background-image: url("../images/laser-arena-screenshot.png");
+  background-repeat: no-repeat;
+}
+
+#jobsite-proj{
+  background-image: url("../images/earth-image.png");
   background-repeat: no-repeat;
 }
 
