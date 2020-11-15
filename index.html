@@ -21,7 +21,7 @@
           <a class="nav-item" href="#projects">Projects</a>
           <a class="nav-item" href="#contact">Contact</a>
         </div>
-        <div class="nav-menu">
+        <div class="nav-menu" onclick="openNav()">
           <i id="menu-button" class="fas fa-bars fa-2x"></i>
         </div>
       </nav>
@@ -111,6 +111,19 @@
       <div class="footer">
         <div id="icon-credit">Header icon made by <a href="https://www.flaticon.com/authors/eucalyp" title="Eucalyp">Eucalyp</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
       </div>
+      <!-- overlay menu --->
+      <div id="myNav" class="overlay">
+       <!-- Button to close the overlay navigation -->
+       <i class="fas fa-times fa-3x closebtn" onclick="closeNav()"></i>
+       <!-- Overlay content -->
+       <div class="overlay-content">
+         <a href="#about" onclick="closeNav()">About</a>
+         <a href="#projects" onclick="closeNav()">Projects</a>
+         <a href="#contact" onclick="closeNav()">Contact</a>
+       </div>
+      </div>
+      <!-- Use any element to open/show the overlay navigation menu -->
+      <script src="js/overlay.js" type="text/javascript"></script>
     </div>
   </body>
 </html>
