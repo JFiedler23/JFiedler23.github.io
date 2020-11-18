@@ -27,11 +27,6 @@ a:hover{
   background-color: var(--grayblue);
 }
 
-.navbar{
-  position: fixed;
-  width: 100%;
-}
-
 #navbar-name{
   margin-left: 10vw;
   width: 50%;
@@ -66,7 +61,7 @@ a:hover{
   padding: 0px 15px 0px 15px;
 }
 
-#about, #projects, #contact{
+#main-header, #about, #projects, #contact{
   padding: 3vw 0vw 3vw 0vw;
 }
 
@@ -262,9 +257,6 @@ hr{
   .section-title{
     font-size: calc(30px + 25 * ((100vw - 320px) / 680));
   }
-  #main-header{
-    padding: 20vw 0vw 3vw 0vw;
-  }
   #header-image{
     width: 25vw;
     margin: 0vw 0vw -1vw 0vw;
@@ -411,9 +403,6 @@ hr{
   }
   .section-title{
     font-size: 55px;
-  }
-  #main-header{
-    padding: 9vw 0vw 3vw 0vw;
   }
   #header-image{
     width: 15vw;
