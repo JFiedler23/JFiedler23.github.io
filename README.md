@@ -11,3 +11,7 @@ Click **[here](https://jfiedler23.github.io/)** to check it out!
 - CSS
 - JS
 - [Visual Studio Code](https://code.visualstudio.com/)
+
+# Authors
+
+- John Fiedler [JFiedler23](https://github.com/JFiedler23)
