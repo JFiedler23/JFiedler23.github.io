@@ -14,4 +14,4 @@ Click **[here](https://jfiedler23.github.io/)** to check it out!
 
 # Authors
 
-- John Fiedler [JFiedler23](https://github.com/JFiedler23)
+- John Fiedler - [JFiedler23](https://github.com/JFiedler23)
