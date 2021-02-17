@@ -152,6 +152,7 @@ hr{
 
 .project-container{
   display: flex;
+  flex-wrap: wrap;
 }
 
 .project-item{
@@ -193,6 +194,11 @@ hr{
 
 #jobsite-proj{
   background-image: url("../images/retro-gaming.jpg");
+  background-repeat: no-repeat;
+}
+
+#fn-proj{
+  background-image: url("../images/fortnite-2.png");
   background-repeat: no-repeat;
 }
 
