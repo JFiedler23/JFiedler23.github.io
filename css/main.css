@@ -4,10 +4,27 @@
   --darkblue: #5735bd;
 }
 
+@keyframes fadeIn{
+  0%{
+      opacity: 0;
+      transform: translateY(100%);
+  }
+  100%{
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
 body{
   margin: 0;
   font-family: 'Montserrat', sans-serif;
+  animation: fadeIn 2s ease;
 }
+
 a{
   text-decoration: none;
   color: white;
